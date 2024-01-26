@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id = "desktop-nav">
+        <div class="logo">Mundi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Mundi</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/assets/profile-pic.png" alt="Mundi Mo profile pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mundi Mo</h1>
+            <p class="section__text__p2">a family man</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick= "window.open('./assets/assets/resume-mohammad.pdf')"
+                >
+                Download CV
+            </button>
+            <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'"
+                >
+                Contact Info
+            </button>
+            </div>
+            <div id="socials-container">
+                <img src="assets/assets/youtube.png" alt="youtube profile"
+                class="icon"
+                onclick="location.href='https://www.youtube.com/@mohammadmundiwala4044?app=desktop'"
+                />
+                <img src="./assets/assets/github.png" 
+                alt="github profile"
+                class="icon"
+                onclick="location.href='https://github.com/mohammadmundiwala'"
+                />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/assets/about-pic.png" 
+                alt=" Profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/assets/experience.png" alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>20+ years <br>Being Based</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/assets/education.png" alt="Education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.Sc. Mechanical Engineering <br>Ph.D Systems and Mechanics</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Today marks the day of the rest of your life. Thats what my bus driver told me when I complained to him about my unlucky life. "I got no hands" I exclaimed, obviously reffering to how bad I am at ball. Dumbfounded, Buzz quickly grabbed my hands and told me with releif, "Don't worry, they are right here".  "I know that I HAVE hands.. duh ". Buzz would now wear a scowl until I quietly muttered "Thank you". Hearing this, Buzz softly let go of my hands and grabbed the steering wheel once more. 
+                        The point of this story is pretty obvious so i will refrain from going too deep into it. To the curious few who have read till this point, I am student, brother, and friend. I am also a tutor, minister, and referee on Saturdays. 
+                        Money ain't shit, but I got it. Thank you. *Bows in front of Bathroom mirror while listening to Applause by Lady Gaga*
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" 
+        onclick="location.href='./#experience'"
+        />
+    
+    </section>
+    <section id="experience">
+        <p class ='section__text__p1'>Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Boring Stuff</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Fine</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Dope</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>MATLAB</h3>
+                                <p>Decent</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>NX</h3>
+                                <p>Nasty</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Creo</h3>
+                                <p>#1</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Photoshop</h3>
+                                <p>still learning</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Epic Stuff</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Video Editing</h3>
+                                <p>Novice</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Skydiving</h3>
+                                <p>True</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Ordained Minister</h3>
+                                <p>true</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Rapping</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Boyscout</h3>
+                                <p>Eagle</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/assets/checkmark.png" 
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Drone</h3>
+                                <p>Fly</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/assets/arrow.png" alt="Arrow icon" class="icon arrow" 
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/assets/project-1.png" alt="Project 1"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        Github
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        BUTTON
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/assets/project-1.png" alt="Project 2"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button 
+                    class ="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        Github
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        BUTTON
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/assets/project-1.png" alt="Project 3"
+                    class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        Github
+                    </button>
+                    <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://github.com/mohammadmundiwala'">
+                        pdf?
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img 
+        src="assets/assets/arrow.png" 
+        alt="Arrow icon" 
+        class="icon arrow" 
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">
+            Get in touch
+        </p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/assets/email.png"
+                 alt="Email icon"
+                 class="icon contact-icon"
+                 />
+                 <p><a href="mailto:mohammad.mundiwala@uconn.edu">mohammad.mundiwala@uconn.edu</a></p>
+            </div>
+        </div>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/assets/REIL.png"
+                 alt="Linkedin icon"
+                 class="icon contact-icon"
+                 />
+                 <p><a href="https://chaohulab.engr.uconn.edu/">REIL Lab</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Mundiwala. All Rights Reserved</p>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+</html>
