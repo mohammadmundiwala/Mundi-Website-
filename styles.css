@@ -54,9 +54,16 @@ a:hover {
 
 .logo{
     font-size: 2rem;
+
 }
+.Mundi-logo {
+    display: flex;
+    height: 300px;
+    margin-top: 10rem;
+}
+
 .logo:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
 /* Hamburger Menu */
