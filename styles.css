@@ -298,7 +298,8 @@ section {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    text-align: center;
+    text-align: left;
+    max-width: fit-content;
 }
 
 .section-container {
@@ -332,19 +333,68 @@ section {
     font-size: 1rem;
 }
 
-.experience-details-container {
+.experience-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+    margin: 2rem 0;
+}
+
+.experience-left-side {
+    flex: 1;
+    max-width: 60%;
+}
+
+.experience-containers-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience-right-side {
+    flex: 1;
+    max-width: 40%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.experience-photos {
+    display: flex;
     flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.experience-photo {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.experience-photo:hover {
+    transform: scale(1.05);
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 article {
