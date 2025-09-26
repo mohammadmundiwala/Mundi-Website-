@@ -370,8 +370,8 @@ section {
 }
 
 .experience-photo {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 1.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -499,3 +499,36 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* Scroll to Top Button */
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.685);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-arrow {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+}
+
+#scroll-to-top:hover {
+    background-color: rgb(226, 222, 222);
+    transform: scale(1.1);
+}
+
