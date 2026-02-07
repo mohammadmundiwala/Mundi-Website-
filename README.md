@@ -1,5 +1,5 @@
 ## A simple website design
-I do not reccomend any of the stylings used in this project. This was a way to learn about github, web design, and have a little fun. 
+I do not reccomend any of the stylings used in this project. This was my first time using github and exploring web design to have a little fun. 
 
 The website is hosted here
 
